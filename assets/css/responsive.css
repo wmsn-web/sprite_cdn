@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px)
+{
+	.desk_view{
+		display: none;
+	}
+	.hor_nav{
+		margin-top: 112px;
+		background-color: #fff;
+	}
+	.hor_nav ul{
+		padding-right: 48px;
+	}
+	.horizontalMenucontainer .main-header.hor-header {
+	    position: fixed;
+	    background: #23406C;
+	    box-shadow: unset;
+        -webkit-box-shadow: unset;
+	}
+	.hor_nav ul li{
+		list-style-type: none;
+		padding: 4px 12px;
+		text-align: center;
+		display: inline-block;
+		font-family: 'Titillium Web';
+		font-weight: 500;
+		text-transform: uppercase;
+		font-size: 10px;
+		white-space: nowrap;
+		border-left: solid 1px #C1C3C6;
+	}
+	.hor_nav ul li a{
+		color: #2F699A;
+		text-decoration: none;
+		display: inline-block;
+		padding-top: 4px;
+	}
+	.mob_toggle_menu_button{
+		display: block;
+		
+	}
+	.sidebar_nav{
+		position: fixed;
+		top: 0;
+		left: -268px;
+		background-color: #fff;
+		width:  250px;
+		height: 100%;
+		overflow-y: scroll;
+		z-index: 1050;
+		transition: all 0.5s;
+	}
+	.side_menu_logo{
+		display: block;
+	}
+	.main_content{
+		margin-left: 0;
+		padding-bottom: 120px;
+		margin-top: 170px;
+	}
+	.match_title{
+		padding: 6px 8px;
+		width: 45%;
+		float: left;
+	}
+	.single_title{
+		font-size: 12px;
+	}
+	.match_time{
+		width: 15%;
+		padding: 0;
+	}
+	.fancy_bm{
+		width: 25%;
+		float: left;
+
+	}
+	.bl_box {
+        height: 28px;
+    }
+    .home_ods_bx .bl_box .price_val{
+    	display: none;
+    }
+    .cas_wd{
+    	width: 140px;
+    }
+    .list-sport-title {
+	    padding: 4px 12px;
+	    font-size: 13px;
+	}
+	.mob_view{
+		display: block;
+	}
+	.signup_box{
+		margin-top: 110px;
+	}
+	
+	.sn_icon img{
+		width: 25px;
+	}
+	.sn_tx{
+		font-size: 9px;
+	}
+	/*===========Full Market==============*/
+	.th_title{
+		width: 60%;
+		}
+		.th_rate{
+			width: 0%;
+		}
+		.th_ods{
+			width: 16%;
+		}
+		.desk_view_tbl{
+			display: none;
+		}
+
+}
