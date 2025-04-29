@@ -214,6 +214,13 @@ a.menu_flex span i{
 	color: #fff;
 	border: solid 1px #00427c;
 }
+.input_gr input.normal{
+	background-color: #fff !important;
+	border: none !important;
+	color: #000 !important;
+	box-shadow: 1px 1px 15px #8f8f8f;
+	border-radius: 5px;
+}
 .input_gr span.fix_icon{
 	position: absolute;
 	right: 9px;
@@ -289,34 +296,46 @@ a.menu_flex span i{
 	}
 	.horizontalMenucontainer .main-header.hor-header {
 	    position: fixed;
-	    background: #000;
+	    background: #000 !important;
 	    box-shadow: unset;
         -webkit-box-shadow: unset;
 	}
 	.hor_nav ul li{
 		list-style-type: none;
-		padding: 4px 12px;
+		padding: 2px 12px;
 		text-align: center;
 		display: inline-block;
 		font-family: 'Titillium Web';
 		font-weight: 500;
 		text-transform: uppercase;
 		font-size: 10px;
-		white-space: nowrap;
+		white-space: break-spaces;
 		border-left: solid 1px #C1C3C6;
 	}
 	.hor_nav ul li a{
-		color: #2F699A;
+		color: #000;
 		text-decoration: none;
 		display: inline-block;
-		padding-top: 4px;
+		text-align: center;
+		text-align: unset;
 	}
 	.hor_nav ul li a img.nav_icons {
-		width: 17px;
+		display: block;
+        width: 17px;
+        height: 17px;
+        font-size: 8px;
+        margin: 0px auto;
 	}
 	.mob_toggle_menu_button{
 		display: block;
 		
+	}
+	.mob_toggle_menu_button_com{
+		display: block;
+		
+	}
+	.hor_nav ul li a span{
+		padding-left: 0;
 	}
 	.sidebar_nav{
 		position: fixed;
@@ -335,10 +354,10 @@ a.menu_flex span i{
 	.main_content{
 		margin-left: 0;
 		padding-bottom: 120px;
-		margin-top: 170px;
+		margin-top: 150px;
 	}
 	.match_title{
-		padding: 6px 8px;
+		padding: 2px 8px;
 		width: 45%;
 		float: left;
 	}
@@ -346,8 +365,12 @@ a.menu_flex span i{
 		font-size: 12px;
 	}
 	.match_time{
-		width: 15%;
+		width: 50px;
 		padding: 0;
+	}
+	.match_time span{
+		line-height: 10px;
+		font-size: 8px;
 	}
 	.fancy_bm{
 		width: 25%;
@@ -355,7 +378,7 @@ a.menu_flex span i{
 
 	}
 	.bl_box {
-        height: 28px;
+        height: 26px;
     }
     .home_ods_bx .bl_box .price_val{
     	display: none;
@@ -442,6 +465,19 @@ a.menu_flex span i{
 		}
 		.dropdown-item.menu_item span{
 			font-weight: 700;
+		}
+		.custom_modal{
+			margin-top: 0;
+		}
+		.series_title{
+			font-size: 10px;
+			text-transform: uppercase;
+		}
+		.modal-body.custom_pd{
+			padding: 11px;
+		}
+		.modal_gn_new{
+			padding: 10px;
 		}
 		
 }
